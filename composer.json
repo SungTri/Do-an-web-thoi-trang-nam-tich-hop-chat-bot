@@ -1,0 +1,9 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.18",
+        "php-webdriver/webdriver": "^1.15"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
