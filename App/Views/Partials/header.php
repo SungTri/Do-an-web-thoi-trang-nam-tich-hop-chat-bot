@@ -285,7 +285,7 @@ if (isset($_SESSION['user_id'])) {
         white-space: pre-line;
     }
     .chat-msg.bot a {
-        color: #0f0;
+        color: rgba(0, 0, 0, 1);
         text-decoration: underline;
     }
     .chat-product {
@@ -327,7 +327,7 @@ if (isset($_SESSION['user_id'])) {
         display: inline-block;
         margin-top: 8px;
         padding: 6px 12px;
-        background: #0f0;
+        background: rgba(255, 255, 255, 1);
         color: #000;
         text-decoration: none;
         border-radius: 4px;
@@ -338,7 +338,7 @@ if (isset($_SESSION['user_id'])) {
         transition: background 0.2s;
     }
     .chat-product .view-detail-btn:hover {
-        background: #0c0;
+        background: rgba(121, 121, 121, 1);
     }
     .chat-msg.bot.loading span {
         background: #1a1a1a;
